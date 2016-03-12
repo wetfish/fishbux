@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "wetfish-basic": "^0.7.7",
+    "wetfish-server": "^0.2.0"
+  }
+}
