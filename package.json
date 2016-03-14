@@ -1,6 +1,10 @@
 {
   "dependencies": {
+    "connect-redis": "^3.0.2",
+    "express-session": "^1.13.0",
+    "redis": "^2.5.0-1",
     "wetfish-basic": "^0.7.7",
+    "wetfish-login": "^0.1.0",
     "wetfish-server": "^0.2.0"
   }
 }
