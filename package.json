@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "coinbase": "^2.0.4",
     "connect-redis": "^3.0.2",
     "express-session": "^1.13.0",
     "redis": "^2.5.0-1",
