@@ -1,11 +1,10 @@
 {{> head}}
     {{> header}}
 
-    <p>Fishbux is cool</p>
+    <h1>Fishbux is cool</h1>
+    <p>Hi there.</p>
 
     <ul>
-        <li><a href="/example">Here's another page</a></li>
-        <li><a href="/example.html">Or maybe some static HTML?</a></li>
+        <li><a href="/example">Here's an example page</a></li>
     </ul>
-    
 {{> foot}}

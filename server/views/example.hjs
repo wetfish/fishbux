@@ -1,6 +1,7 @@
 {{> head}}
     {{> header}}
 
+    <h1>xD</h1>
     <p>Notice how the head, header, and foot are reusable templates!</p>
 
     <ul>

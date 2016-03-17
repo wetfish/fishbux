@@ -28,3 +28,7 @@ node_modules
 
 # Wetfish Server configuration
 config.js
+
+# Auto-generated files
+bundle.js
+bundle.css

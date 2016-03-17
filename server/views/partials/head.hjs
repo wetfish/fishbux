@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>FishBux: Rewards from Wetfish</title>
 
-        <title>Wetfish Server Example</title>
+        <!-- Bootstrap styles -->
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+
+        <!-- Custom styles -->
+        <link rel="stylesheet" href="/css/bundle.css">
+
+        <!-- Custom scripts -->
+        <script src="/js/bundle.js"></script>
+
+        <!-- Mobile friendly viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     
     <body>
