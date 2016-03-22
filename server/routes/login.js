@@ -14,7 +14,7 @@ module.exports = function(required)
     {
         if(!req.query.token)
         {
-            res.redirect('https://login.wetfish.net/apps/join/' + config.login.app_id);
+            res.redirect('https://login.wetfish.net/login/join/' + config.login.app_id);
             return;
         }
 
@@ -29,6 +29,11 @@ module.exports = function(required)
             req.session.user = verified.data;
             event.emit('message', req, res, {type: 'success', text: "You're logged in!"});
         });
+    });
+
+    app.get('/register', function(req, res)
+    {
+        res.redirect('https://login.wetfish.net/register/join/' + config.login.app_id);
     });
 
     app.get('/logout', function(req, res)

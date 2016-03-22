@@ -1,7 +1,7 @@
 # Project Setup
 
 ## General Templates
-- [ ] Header nav
+- [x] Header nav
 - [ ] Home page
  - [ ] Some information about fishbux
  - [ ] Bank statistics
