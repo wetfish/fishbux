@@ -14,7 +14,7 @@ module.exports = function(required)
     {
         if(!req.query.token)
         {
-            res.redirect('https://login.wetfish.net/login/join/' + config.login.app_id);
+            res.redirect('https://login.wetfish.net/apps/join/' + config.login.app_id);
             return;
         }
 
